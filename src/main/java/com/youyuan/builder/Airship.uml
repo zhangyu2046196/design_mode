@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.youyuan.builder.Airship</OriginalElement>
+  <nodes>
+    <node x="873.0" y="501.0">com.youyuan.builder.Airship</node>
+    <node x="724.0" y="940.0">com.youyuan.builder.BjEngine</node>
+    <node x="199.0" y="1199.0">com.youyuan.builder.ShEscape</node>
+    <node x="424.0" y="609.0">com.youyuan.builder.BjAirshipBuilder</node>
+    <node x="619.5" y="808.0">com.youyuan.builder.Engine</node>
+    <node x="515.0" y="940.0">com.youyuan.builder.ShEngine</node>
+    <node x="0.0" y="132.0">com.youyuan.builder.AirshipDirectorImp</node>
+    <node x="245.0" y="940.0">com.youyuan.builder.BjOrbitalModel</node>
+    <node x="121.5" y="0.0">com.youyuan.builder.AirshipDirector</node>
+    <node x="0.0" y="609.0">com.youyuan.builder.ShAirshipBuilder</node>
+    <node x="1000.0" y="405.0">java.io.Serializable</node>
+    <node x="122.5" y="808.0">com.youyuan.builder.OrbitalModel</node>
+    <node x="0.0" y="940.0">com.youyuan.builder.ShOrbitalModel</node>
+    <node x="423.0" y="1067.0">com.youyuan.builder.ClientTest</node>
+    <node x="99.5" y="1067.0">com.youyuan.builder.Escape</node>
+    <node x="212.0" y="405.0">com.youyuan.builder.AirshipBuilder</node>
+    <node x="0.0" y="1199.0">com.youyuan.builder.BjEscape</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.youyuan.builder.ShEscape" target="com.youyuan.builder.Escape">
+      <point x="0.0" y="-41.0" />
+      <point x="288.5" y="1174.0" />
+      <point x="233.75" y="1174.0" />
+      <point x="44.75" y="41.0" />
+    </edge>
+    <edge source="com.youyuan.builder.ShEngine" target="com.youyuan.builder.Engine">
+      <point x="0.0" y="-41.0" />
+      <point x="609.5" y="915.0" />
+      <point x="666.75" y="915.0" />
+      <point x="-47.25" y="41.0" />
+    </edge>
+    <edge source="com.youyuan.builder.Airship" target="java.io.Serializable">
+      <point x="0.0" y="-114.0" />
+      <point x="0.0" y="23.0" />
+    </edge>
+    <edge source="com.youyuan.builder.BjEngine" target="com.youyuan.builder.Engine">
+      <point x="0.0" y="-41.0" />
+      <point x="818.5" y="915.0" />
+      <point x="761.25" y="915.0" />
+      <point x="47.25" y="41.0" />
+    </edge>
+    <edge source="com.youyuan.builder.ShOrbitalModel" target="com.youyuan.builder.OrbitalModel">
+      <point x="0.0" y="-41.0" />
+      <point x="112.5" y="915.0" />
+      <point x="178.75" y="915.0" />
+      <point x="-56.25" y="41.0" />
+    </edge>
+    <edge source="com.youyuan.builder.BjEscape" target="com.youyuan.builder.Escape">
+      <point x="0.0" y="-41.0" />
+      <point x="89.5" y="1174.0" />
+      <point x="144.25" y="1174.0" />
+      <point x="-44.75" y="41.0" />
+    </edge>
+    <edge source="com.youyuan.builder.BjAirshipBuilder" target="com.youyuan.builder.AirshipBuilder">
+      <point x="0.0" y="-77.0" />
+      <point x="626.0" y="584.0" />
+      <point x="515.0" y="584.0" />
+      <point x="101.0" y="77.0" />
+    </edge>
+    <edge source="com.youyuan.builder.ShAirshipBuilder" target="com.youyuan.builder.AirshipBuilder">
+      <point x="0.0" y="-77.0" />
+      <point x="202.0" y="584.0" />
+      <point x="313.0" y="584.0" />
+      <point x="-101.0" y="77.0" />
+    </edge>
+    <edge source="com.youyuan.builder.BjOrbitalModel" target="com.youyuan.builder.OrbitalModel">
+      <point x="0.0" y="-41.0" />
+      <point x="357.5" y="915.0" />
+      <point x="291.25" y="915.0" />
+      <point x="56.25" y="41.0" />
+    </edge>
+    <edge source="com.youyuan.builder.AirshipDirectorImp" target="com.youyuan.builder.AirshipDirector">
+      <point x="0.0" y="-114.0" />
+      <point x="0.0" y="41.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.35895465026902384" x="650.0" y="640.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

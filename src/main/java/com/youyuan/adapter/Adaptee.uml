@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.youyuan.adapter.Adaptee</OriginalElement>
+  <nodes>
+    <node x="0.0" y="333.0">com.youyuan.adapter.ClientTest</node>
+    <node x="80.75" y="0.0">com.youyuan.adapter.Target</node>
+    <node x="289.0" y="169.0">com.youyuan.adapter.Adapter1</node>
+    <node x="337.75" y="0.0">com.youyuan.adapter.Adaptee</node>
+    <node x="0.0" y="132.0">com.youyuan.adapter.Adapter2</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.youyuan.adapter.Adapter2" target="com.youyuan.adapter.Target">
+      <point x="0.0" y="-78.0" />
+      <point x="-53.75" y="41.0" />
+    </edge>
+    <edge source="com.youyuan.adapter.Adapter1" target="com.youyuan.adapter.Target">
+      <point x="-53.75" y="-41.0" />
+      <point x="342.75" y="107.0" />
+      <point x="242.0" y="107.0" />
+      <point x="53.75" y="41.0" />
+    </edge>
+    <edge source="com.youyuan.adapter.Adapter1" target="com.youyuan.adapter.Adaptee">
+      <point x="53.75" y="-41.0" />
+      <point x="0.0" y="41.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="281.5" y="207.5" />
+  <SelectedNodes>
+    <node>com.youyuan.adapter.Adaptee</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

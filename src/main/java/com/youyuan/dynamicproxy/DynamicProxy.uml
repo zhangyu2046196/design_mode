@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.youyuan.dynamicproxy.ClientTest</OriginalElement>
+  <nodes>
+    <node x="0.0" y="679.0">com.youyuan.dynamicproxy.StarHandler</node>
+    <node x="0.0" y="276.0">com.youyuan.dynamicproxy.RealStar</node>
+    <node x="0.0" y="0.0">com.youyuan.dynamicproxy.Star</node>
+    <node x="0.0" y="547.0">java.lang.reflect.InvocationHandler</node>
+    <node x="487.0" y="547.0">com.youyuan.dynamicproxy.ClientTest</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.youyuan.dynamicproxy.RealStar" target="com.youyuan.dynamicproxy.Star">
+      <point x="0.0" y="-113.0" />
+      <point x="0.0" y="113.0" />
+    </edge>
+    <edge source="com.youyuan.dynamicproxy.StarHandler" target="java.lang.reflect.InvocationHandler">
+      <point x="0.0" y="-78.0" />
+      <point x="0.0" y="41.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.5543859649122806" x="372.0" y="417.50000000000006" />
+  <SelectedNodes>
+    <node>com.youyuan.dynamicproxy.ClientTest</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.youyuan.prototype.ClientTest</OriginalElement>
+  <nodes>
+    <node x="391.0" y="0.0">java.lang.Cloneable</node>
+    <node x="0.0" y="406.0">com.youyuan.prototype.ClientTest</node>
+    <node x="301.0" y="96.0">com.youyuan.prototype.sheep1</node>
+    <node x="0.0" y="96.0">com.youyuan.prototype.sheep</node>
+    <node x="0.0" y="533.0">com.youyuan.prototype.ClientTest2</node>
+    <node x="27.0" y="0.0">java.io.Serializable</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.youyuan.prototype.sheep1" target="java.lang.Cloneable">
+      <point x="70.25" y="-132.5" />
+      <point x="40.25" y="23.0" />
+    </edge>
+    <edge source="com.youyuan.prototype.sheep1" target="java.io.Serializable">
+      <point x="-70.25" y="-132.5" />
+      <point x="371.25" y="66.0" />
+      <point x="156.75" y="66.0" />
+      <point x="43.25" y="23.0" />
+    </edge>
+    <edge source="com.youyuan.prototype.sheep" target="java.lang.Cloneable">
+      <point x="70.25" y="-132.5" />
+      <point x="210.75" y="76.0" />
+      <point x="431.25" y="76.0" />
+      <point x="-40.25" y="23.0" />
+    </edge>
+    <edge source="com.youyuan.prototype.sheep" target="java.io.Serializable">
+      <point x="-70.25" y="-132.5" />
+      <point x="-43.25" y="23.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="291.0" y="307.5" />
+  <SelectedNodes>
+    <node>com.youyuan.prototype.ClientTest</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

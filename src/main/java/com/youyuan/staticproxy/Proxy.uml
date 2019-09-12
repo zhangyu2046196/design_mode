@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.youyuan.staticproxy.ClientTest</OriginalElement>
+  <nodes>
+    <node x="143.0" y="0.0">com.youyuan.staticproxy.Star</node>
+    <node x="286.0" y="276.0">com.youyuan.staticproxy.ProxyStar</node>
+    <node x="0.0" y="621.0">com.youyuan.staticproxy.ClientTest</node>
+    <node x="0.0" y="313.0">com.youyuan.staticproxy.RealStar</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.youyuan.staticproxy.RealStar" target="com.youyuan.staticproxy.Star">
+      <point x="0.0" y="-113.0" />
+      <point x="133.0" y="251.0" />
+      <point x="209.5" y="251.0" />
+      <point x="-66.5" y="113.0" />
+    </edge>
+    <edge source="com.youyuan.staticproxy.ProxyStar" target="com.youyuan.staticproxy.Star">
+      <point x="0.0" y="-150.0" />
+      <point x="419.0" y="251.0" />
+      <point x="342.5" y="251.0" />
+      <point x="66.5" y="113.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.6556016597510373" x="276.0" y="351.5" />
+  <SelectedNodes>
+    <node>com.youyuan.staticproxy.ClientTest</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
